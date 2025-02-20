@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.inter-custom {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+body {
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+
+
+.sidebar {
+  background-color: #1f2d3d;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .nav-link {
+  padding: 15px 20px;
+  color: #cfd8dc;
+  transition: all 0.2s;
+}
+
+.sidebar .nav-link:hover, .sidebar .nav-link.active {
+  background-color: #37474f;
+  color: #ffffff;
+}
+
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 15px;
+}
+
+
+.button {
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: background-color 0.2s;
+}
+
+.button.edit {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.button.edit:hover {
+  background-color: #0056b3;
+}
+
+.button.delete {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.button.delete:hover {
+  background-color: #c82333;
+}
+
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.table th {
+  font-weight: 600;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  table-layout: fixed;
+}
+
+.table th {
+  background-color: #bec8d326; 
+}
+
+.table th {
+  padding: 12px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #efefef;
+}
+
+.table tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.table tr:nth-of-type(even) {
+  background-color: #ffffff;
+}
+
+.table tr:hover {
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 768px) {
+
+  .table td {
+      display: block;
+      text-align: right;
+      padding: 10px 15px;
+      position: relative;
+  }
+
+  .table td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0;
+      width: 50%;
+      padding-left: 15px;
+      font-weight: bold;
+      text-align: left;
+  }
+
+  .table td:last-child {
+      border-bottom: 0;
+  }
+}

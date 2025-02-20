@@ -1,0 +1,341 @@
+  ::-webkit-scrollbar-track {
+    background-color:#fff !important;
+  }
+  ::-webkit-scrollbar {
+    width:8px;
+    background-color:#ffffff !important;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius:2px !important;
+    background-color:  #bec8d34a
+    !important;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    cursor:pointer ;
+  }
+  
+  
+  .loginPage {
+    background-color: #ffffff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top : 50px !important;
+    margin-bottom : 40px;
+}
+
+.loginPage2 {
+  background-color: #ffffff; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-top : 0px !important;
+  margin-bottom : 0px;
+}
+
+.loginForm {
+    border-radius: 16px !important; 
+    width: 500px;
+}
+
+.loginForm h2 {
+    color: #333333; 
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.loginForm input,
+.loginForm input {
+    width: 100%;
+    padding: 12px 16px;
+    box-shadow: #422800 0px 0px 0 0;
+    border: 1px solid #000000 !important; 
+    border-radius: 30px; 
+    margin-bottom: 20px;
+    font-size: .8rem !important;
+}
+
+
+
+.loginForm button:focus {
+    outline: none;
+}
+
+.bold-form-label{
+    font-weight: 500;
+}
+
+.loginForm button {
+    width: 45%;
+    padding: 12px;
+    font-weight: 500;
+    border: none;
+    color: white; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: transparent !important;
+    margin-top:10px;
+}
+
+
+.button-74 {
+  align-items: center;
+  appearance: none;
+  background-clip: padding-box;
+  background-color: initial;
+  background-image: none;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: Eina01,sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  justify-content: center;
+  line-height: 24px;
+  margin: 0;
+  min-height: 64px;
+  outline: none;
+  overflow: visible;
+  padding: 19px 26px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: auto;
+  word-break: keep-all;
+  z-index: 0;
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    padding: 19px 32px;
+  }
+}
+
+.button-74:before,
+.button-74:after {
+  border-radius: 80px;
+}
+
+.button-74:before {
+  background-color: rgba(249, 58, 19, .32);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.button-74:after {
+  background-color: initial;
+  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  bottom: 4px;
+  content: "";
+  display: block;
+  left: 4px;
+  overflow: hidden;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  transition: all 100ms ease-out;
+  z-index: -1;
+}
+
+.button-74:hover:not(:disabled):after {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition-timing-function: ease-in;
+}
+
+.button-74:active:not(:disabled) {
+  color: #ccc;
+}
+
+.button-74:active:not(:disabled):after {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+}
+
+.button-74:disabled {
+  cursor: default;
+  opacity: .24;
+}
+
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.form-control::placeholder{
+    color: #bebebe;
+}
+
+.top--title{
+    background-color: #bec8d326;
+}
+
+.back-button {
+  padding: 0px 8px !important;
+  font-weight: 500 !important;
+  color: #9d9d9d !important; 
+  cursor: pointer !important;
+  transition: background-color 0.3s ease !important;
+  margin-top: 10px !important;
+  border: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  font-size: 12px;
+  margin-left:0px !important;
+  width:100%;
+  max-width:100%;
+  text-align: left;
+}
+
+.form-container { 
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding:2em .4em;
+}
+
+.employee-image {
+  max-width: 100px; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.HomeCard {
+  box-shadow: rgba(0, 0, 0, 0.048) 0px 5px 12px, rgba(0, 0, 0, 0.045) 0px 5px 10px;
+  border-radius: 16px !important;
+  padding: 30px !important;
+  transition: transform 0.3s ease;
+  border: 5px solid #fff;
+}
+
+.HomeCard:hover {
+  transform: scale(1.04);
+  animation: bounce 0.5s ease;
+}
+
+
+/* Sidebar */
+.sidebar-toggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 999;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.sidebar-toggle i {
+  color: #ffffff; 
+}
+
+.sidebar-toggle:focus {
+  outline: none;
+}
+
+.sidebar {
+  transition: width 0.3s ease;
+  width: 81px;
+}
+
+
+.sidebar-open .sidebar {
+  width: 250px;
+}
+
+/* Sidebar Menu */
+.nav-link {
+  color: #ffffff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #373b3e; 
+}
+
+.nav-link.active {
+  background-color: #ffffff;
+  color: #000000; 
+}
+
+/* Animation for Logo */
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg, #4797ffb3 0%, #ae62ff 29%, #ff1361 67%, #fff800 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 900;
+  font-family: Quicksand;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+.sidebar-closed .d-none.d-sm-inline {
+  display: none !important;
+}
+
+.sidebar {
+  transition: width 0.3s ease;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  transition: padding 0.3s ease;
+}
+
+.nav-link-logout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: padding 0.3s ease;
+  overflow: hidden;
+}
+
+.loginForm {
+  border-top: 5px solid  #f93a13;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}

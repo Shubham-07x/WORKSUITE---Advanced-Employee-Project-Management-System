@@ -1,0 +1,92 @@
+:root {
+    --green: #0a1823;
+    --lightgreen1: #a4bdb7;
+    --brown: #b80d15;
+    --gray: rgb(162, 162, 162);
+    --lightgreen2: rgba(164, 189, 183, 0.5);
+    --box: #ededed;
+}
+
+.empPageColor{
+    background-image: linear-gradient(90deg, #ebffff 0%, #eff3ff 30%, #feeeff 100%);
+}
+
+.card {
+    width: auto;
+    margin: 0 auto;
+    border-radius: 12px !important;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(99, 104, 109, 0.112) 0px 5px 15px !important;
+    border: 1px solid #f8f7ff;
+    max-width: 700px;
+}
+
+.card-img {
+    width: 230px;
+    height: 230px;
+    border-radius: 8%;
+    display: block;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--green); 
+    text-align: left;
+}
+
+.details {
+    margin-bottom: 20px;
+    font-size: 1.1rem; 
+}
+
+.buttons {
+    display: flex;
+    justify-content: left;
+    gap: 10px; 
+}
+
+.buttons .message {
+    background: var(--box); 
+    border: 2px solid var(--green); 
+    color: var(--green); 
+    margin-right: 10px; 
+}
+
+.buttons .connect {
+    background-color: var(--brown); 
+    color: #fff;
+    border: none;
+}
+
+.buttons:hover {
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.details{
+    color: #57595d;
+    text-align: left !important;
+    justify-content: left !important;
+}
+
+.detailsTitle{
+    font-weight: 600;
+    color: #444;
+    text-align: left !important;
+    justify-content: left !important;
+}
+
+lable{
+    display: flex !important;
+    justify-content: left !important;
+}
+
+.empCard{
+    display: flex;
+}

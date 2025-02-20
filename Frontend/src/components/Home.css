@@ -1,0 +1,67 @@
+/* Container styling */
+.home-container {
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #f7f8fa; /* Subtle grey background */
+  font-family: "Roboto", sans-serif; /* Or any premium font */
+}
+
+/* Cards */
+.home-card {
+  border: none; /* Remove default border */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Title */
+.home-card-title {
+  font-size: 1.25rem; /* Slightly larger than default */
+  font-weight: 600;
+  color: #333;
+}
+
+/* Tables */
+.home-table thead th {
+  font-size: 0.65rem !important;
+  font-weight: 600;
+  background-color: #e9ecef; /* Light grey background for table header */
+}
+
+/* Notification List */
+.notification-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notification-item {
+  background-color: #f7f7f7;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem;
+  border-left: 4px solid #007bff; /* Accent color on left */
+  border-radius: 4px;
+}
+
+.notification-item:hover {
+  background-color: #f0f4ff;
+}
+
+/* Chart Wrapper */
+.chart-wrapper {
+  height: 180px;
+  padding: 1rem;
+}
+
+/* Responsive: On smaller screens, reduce padding, etc. */
+@media (max-width: 767px) {
+  .home-container {
+    padding: 1rem;
+  }
+  .home-card-title {
+    font-size: 1.1rem;
+  }
+}
+
+.home-table {
+  font-size: 0.8rem !important;
+}
